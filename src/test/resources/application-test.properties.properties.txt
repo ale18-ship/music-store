@@ -1,0 +1,10 @@
+spring.test.context.cleanup.after.each.class=true
+spring.jpa.hibernate.ddl-auto=none
+
+spring.datasource.url=jdbc:tc:postgresql:13:///testdb?TC_TMPFS=/testtmpfs:rw
+spring.datasource.username=testuser
+spring.datasource.password=testpass
+spring.datasource.driver-class-name=org.testcontainers.jdbc.ContainerDatabaseDriver
+
+spring.datasource.hikari.maximum-pool-size=2
+spring.datasource.hikari.minimum-idle=1
