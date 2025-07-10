@@ -32,7 +32,7 @@
 --Configuración Inicial
 1. Instalación de PostgreSQL
 ```bash
-# Instalar PostgreSQL en macOS (usando Homebrew)
+# Instalar PostgreSQL en Windows (usando Homebrew)
 brew install postgresql@15
 --Iniciar el servicio
 brew services start postgresql@15
