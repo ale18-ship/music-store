@@ -1,8 +1,0 @@
-spring.application.name=musicstore
-
-spring.datasource.url=jdbc:postgresql://localhost:5432/music_store_db
-spring.datasource.username=user_music_store
-spring.datasource.password=password_music_store
-spring.datasource.driver-class-name=org.postgresql.Driver
-
-spring.jpa.hibernate.ddl-auto=none # Desactivamos Hibernate
